@@ -17,5 +17,3 @@
 
 #Ignore rubymine files
 .idea/*
-
-/config/facebook.yml
