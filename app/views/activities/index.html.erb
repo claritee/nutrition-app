@@ -1,19 +1,21 @@
 Create An Activity
 
 <%= form_for :activity do |f| %>
+    <%= f.hidden_field :creator_id, value: 1%>
     <p>
       <%= f.label :name %><br>
       <%= f.text_field :name %>
     </p>
     <p>
       <%= f.label :location %><br>
-      <%= f.text_field :name %>
+      <%= f.text_field :location %>
     </p>
     <p>
       <%= f.label :time %><br>
       <%= f.datetime_select :time %>
     </p>
     <p>
+      Ready to broadcast?
       <%= f.submit %>
     </p>
 <% end %>
