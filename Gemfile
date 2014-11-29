@@ -13,10 +13,10 @@ gem 'uglifier', '>= 1.3.0'
 
 group :development do
   gem 'better_errors'
-  gem 'pry-debugger'
-  gem 'pry-doc'
-  gem 'pry-rails'
-  gem 'pry-stack_explorer'
+  # gem 'pry-debugger'
+  # gem 'pry-doc'
+  # gem 'pry-rails'
+  # gem 'pry-stack_explorer'
   gem 'spring'
 end
 
@@ -25,3 +25,9 @@ group :test do
 end
 
 gem 'sdoc', '~> 0.4.0', group: :doc, require: false
+
+# gem 'facebooker', '~> 1.0.75'
+
+
+gem 'omniauth-facebook' # Facebook authentication 
+gem "koala", "~> 1.10.0rc" # Facebook API 
