@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
   resources :members, only: [:index, :show]
+  resources :activities, only: [:index, :show, :create]
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
