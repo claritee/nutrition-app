@@ -7,7 +7,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails', '~> 3.1.2'
 gem 'rails', '4.1.1'
 gem 'sass-rails', '~> 4.0.3'
-gem 'sqlite3'
+gem 'sqlite3', '~> 1.3.10'
 gem 'turbolinks', '2.5.2'
 gem 'uglifier', '>= 1.3.0'
 
