@@ -172,10 +172,6 @@ DEPENDENCIES
   koala (~> 1.10.0rc)
   omniauth-facebook
   pg
-  pry-debugger
-  pry-doc
-  pry-rails
-  pry-stack_explorer
   rails (= 4.1.1)
   rspec-rails (~> 3.1)
   sass-rails (~> 4.0.3)
