@@ -7,5 +7,5 @@ test:
   secret: a9954af952885948ccbfbd2149341d0e
 
 production:
-  app_id: 892581207453767
-  secret: a9954af952885948ccbfbd2149341d0e
+  app_id: 1517214875229229
+  secret: 8591a1bda05561c033086339ccb6b4c2
