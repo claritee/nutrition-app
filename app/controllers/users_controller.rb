@@ -11,4 +11,10 @@ class UsersController < ApplicationController
     redirect_to root_url
   end
 
+
+  def logout
+  	SessionService.new.destroy_session
+  	redirect_to root_url 
+  end
+
 end

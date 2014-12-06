@@ -1,7 +1,12 @@
 
 <% if @user %>
-  <%= @user['name'] %>
+	<%= image_tag @user['picture']['data']['url'].to_s %>
+	<%= @user['name'] %>
+	<%= link_to "activities", '/activities' %>
+  <%= link_to "Logout", 'users/logout' %> 
 <% else %>
   <%= link_to "Login", '/auth/facebook' %>
 <% end %>
+
+
 
