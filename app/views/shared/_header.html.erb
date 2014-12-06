@@ -1,0 +1,7 @@
+
+<% if @user %>
+  <%= @user['name'] %>
+<% else %>
+  <%= link_to "Login", '/auth/facebook' %>
+<% end %>
+
