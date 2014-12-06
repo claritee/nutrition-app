@@ -95,11 +95,7 @@
 
 
 <img class="img-responsive img-center" height="25" width="25" src="http://img2.wikia.nocookie.net/__cb20130501121248/logopedia/images/f/fb/Facebook_icon_2013.svg" alt="">
-<% if @user %>
-  <%= @user['name'] %>
-<% else %>
-  <%= link_to "Login", '/auth/facebook' %>
-<% end %>
+  <%= render partial: 'shared/header' %>
 
 
 

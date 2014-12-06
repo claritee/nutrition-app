@@ -1,2 +1,0 @@
-
-<%= link_to "Facebook Login", '/auth/facebook' %>
