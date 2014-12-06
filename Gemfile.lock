@@ -44,6 +44,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
+    dalli (2.7.2)
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.2.2)
@@ -167,6 +168,7 @@ DEPENDENCIES
   better_errors
   bootstrap-sass (~> 3.1.1)
   coffee-rails (~> 4.0.0)
+  dalli (~> 2.7.2)
   jbuilder (~> 2.0)
   jquery-rails (~> 3.1.2)
   koala (~> 1.10.0rc)
